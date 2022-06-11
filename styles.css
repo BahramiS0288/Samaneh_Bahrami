@@ -1,6 +1,21 @@
 body{
     margin: 0;
-    background-color: pink;
+    background-color: rgb(252, 249, 249);
     text-align: center;
     
+}
+@font-face {
+    font-family:'Rochester-Regular' ;
+    src: url(./Rochester-Regular.ttf);
+}
+p{
+    position: absolute;
+    font-family:'Rochester-Regular' ;
+    font-size: 50px;
+    left: 650px;
+    bottom: 300px;
+}
+img{
+    position: relative;
+    margin-top: 100px;
 }
